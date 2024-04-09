@@ -21,7 +21,7 @@ color_codes = [
     "#4682b4", # steelblue
     "#800000" # maroon
 ]
-"""
+
 if theme['base'] == "dark":
     color_codes = [
         "#2e8b57", # seagreen
@@ -59,7 +59,7 @@ elif theme['base'] == "light":
         "#4682b4", # steelblue
         "#a0522d" #sienna
     ]
-"""
+
 task = "Summarize this paper in detail for a scientific audience."
 
 title = "Next Visit Diagnosis Prediction via Medical Code-Centric Multimodal Contrastive EHR Modelling with Hierarchical Regularisation"
