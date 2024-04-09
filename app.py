@@ -2,22 +2,21 @@
 import streamlit as st
 
 color_codes = [
-    "#B71C1C", # Dark red
-    "#E65100", # Orange deep
-    "#F57F17", # Deep yellow
-    "#1B5E20", # Dark green
-    "#006064", # Cyan dark
-    "#0D47A1", # Dark blue
-    "#1A237E", # Indigo
-    "#4A148C", # Purple deep
-    "#880E4F", # Deep purple
-    "#004D40", # Deep teal
-    "#3E2723", # Dark brown
-    "#3E2723", # Coffee
-    "#212121", # Almost black
-    "#BF360C", # Deep orange
-    "#827717", # Olive
-    "#1B5E20", # Green dark (Repeated for balance)
+    "#2f4f4f", # darkslategray
+    "#800000", # maroon
+    "#008000", # green
+    "#bdb76b", # darkkhaki
+    "#4b0082", # indigo
+    "#48d1cc", # mediumturquoise
+    "#ff0000", # red
+    "#ffa500", # orange
+    "#ffff00", # yellow
+    "#00ff00", # lime
+    "#0000ff", # blue
+    "#d8bfd8", # thistle
+    "#ff00ff", # fuschia
+    "#1e90ff", # dodgerblue
+    "#ff1493" #deeppink
 ]
 
 task = "Summarize this paper in detail for a scientific audience."
