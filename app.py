@@ -37,7 +37,7 @@ if theme['base'] == "dark":
         "#ee82ee", # violet
         "#98fb98", # palegreen
         "#ff00ff", # fuschia
-        "#e6e6fa", # lavender
+        "#a0522d", # sienna
         "#ff1493" #deeppink
     ]
 
@@ -48,7 +48,7 @@ elif theme['base'] == "light":
         "#008000", # green
         "#808000", # olive
         "#00bfff", # deepskyblue
-        "#008080", # teal
+        "#fa8072", # salmon
         "#ff0000", # red
         "#ffa500", # orange
         "#8b008b", # darkmagenta
