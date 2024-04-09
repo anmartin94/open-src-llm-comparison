@@ -5,23 +5,23 @@ from streamlit_theme import st_theme
 theme = st_theme()
 
 color_codes = [
-    "#2f4f4f", # darkslategray
-    "#800000", # maroon
-    "#008000", # green
-    "#bdb76b", # darkkhaki
-    "#4b0082", # indigo
-    "#48d1cc", # mediumturquoise
-    "#ff0000", # red
-    "#ffa500", # orange
-    "#ffff00", # yellow
+    "#2e8b57", # seagreen
+    "#808000", # olive
+    "#ff4500", # orangered
     "#00ff00", # lime
-    "#0000ff", # blue
-    "#d8bfd8", # thistle
+    "#4169e1", # royalblue
+    "#00ffff", # aqua
+    "#00bfff", # deepskyblue
+    "#ffa500", # orange
+    "#ee82ee", # violet
     "#ff00ff", # fuschia
-    "#1e90ff", # dodgerblue
-    "#ff1493" #deeppink
+    "#a0522d", # sienna
+    "#ff1493", #deeppink
+    "#fa8072", # salmon
+    "#4682b4", # steelblue
+    "#800000" # maroon
 ]
-
+"""
 if theme['base'] == "dark":
     color_codes = [
         "#2e8b57", # seagreen
@@ -59,7 +59,7 @@ elif theme['base'] == "light":
         "#4682b4", # steelblue
         "#a0522d" #sienna
     ]
-
+"""
 task = "Summarize this paper in detail for a scientific audience."
 
 title = "Next Visit Diagnosis Prediction via Medical Code-Centric Multimodal Contrastive EHR Modelling with Hierarchical Regularisation"
