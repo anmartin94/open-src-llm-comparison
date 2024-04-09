@@ -1,5 +1,8 @@
 # Import Streamlit library
 import streamlit as st
+from streamlit_theme import st_theme
+
+theme = st_theme()
 
 color_codes = [
     "#2f4f4f", # darkslategray
@@ -18,6 +21,45 @@ color_codes = [
     "#1e90ff", # dodgerblue
     "#ff1493" #deeppink
 ]
+
+
+if theme['base'] == "dark":
+    color_codes = [
+        "#2f4f4f", # darkslategray
+        "#800000", # maroon
+        "#008000", # green
+        "#bdb76b", # darkkhaki
+        "#4b0082", # indigo
+        "#48d1cc", # mediumturquoise
+        "#ff0000", # red
+        "#ffa500", # orange
+        "#ffff00", # yellow
+        "#00ff00", # lime
+        "#0000ff", # blue
+        "#d8bfd8", # thistle
+        "#ff00ff", # fuschia
+        "#1e90ff", # dodgerblue
+        "#ff1493" #deeppink
+    ]
+    
+elif theme['base'] == "light":
+    color_codes = [
+        "#2f4f4f", # darkslategray
+        "#800000", # maroon
+        "#008000", # green
+        "#006400", # darkgreen
+        "#4b0082", # indigo
+        "#2e8b57", # seagreen
+        "#ff0000", # red
+        "#ffa500", # orange
+        "#191970", # midnightblue
+        "#00ff00", # lime
+        "#0000ff", # blue
+        "#800080", # purple
+        "#ff00ff", # fuschia
+        "#483d8b", # darkslateblue
+        "#ff1493" #deeppink
+    ]
 
 task = "Summarize this paper in detail for a scientific audience."
 
