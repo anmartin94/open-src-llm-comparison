@@ -22,43 +22,42 @@ color_codes = [
     "#ff1493" #deeppink
 ]
 
-
 if theme['base'] == "dark":
     color_codes = [
-        "#2f4f4f", # darkslategray
-        "#800000", # maroon
-        "#008000", # green
-        "#bdb76b", # darkkhaki
-        "#4b0082", # indigo
-        "#48d1cc", # mediumturquoise
-        "#ff0000", # red
+        "#2e8b57", # seagreen
+        "#808000", # olive
+        "#ff4500", # orangered
+        "#00ff00", # lime
+        "#4169e1", # royalblue
+        "#00ffff", # aqua
+        "#00bfff", # deepskyblue
         "#ffa500", # orange
         "#ffff00", # yellow
-        "#00ff00", # lime
-        "#0000ff", # blue
-        "#d8bfd8", # thistle
+        "#eee8aa", # palegoldenrod
+        "#ee82ee", # violet
+        "#98fb98", # palegreen
         "#ff00ff", # fuschia
-        "#1e90ff", # dodgerblue
+        "#e6e6fa", # lavender
         "#ff1493" #deeppink
     ]
-    
+
 elif theme['base'] == "light":
     color_codes = [
-        "#2f4f4f", # darkslategray
+        "#ba55d3", # mediumorchid
         "#800000", # maroon
         "#008000", # green
-        "#006400", # darkgreen
-        "#4b0082", # indigo
+        "#808000", # olive
+        "#00bfff", # deepskyblue
         "#2e8b57", # seagreen
         "#ff0000", # red
         "#ffa500", # orange
-        "#191970", # midnightblue
+        "#8b008b", # darkmagenta
         "#00ff00", # lime
         "#0000ff", # blue
         "#800080", # purple
         "#ff00ff", # fuschia
         "#483d8b", # darkslateblue
-        "#ff1493" #deeppink
+        "#a0522d" #sienna
     ]
 
 task = "Summarize this paper in detail for a scientific audience."
